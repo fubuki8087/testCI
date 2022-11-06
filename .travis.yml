@@ -1,0 +1,6 @@
+language: c
+compiler: gcc
+before_script: 
+  - gcc helloworld.c -o helloworld
+script: 
+  - ./test.sh
