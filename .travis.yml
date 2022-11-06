@@ -2,5 +2,6 @@ language: c
 compiler: gcc
 before_script: 
   - gcc helloworld.c -o helloworld
+  - chmod +x ./test.sh
 script: 
   - ./test.sh
